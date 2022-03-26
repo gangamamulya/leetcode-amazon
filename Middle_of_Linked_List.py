@@ -4,10 +4,7 @@ class Node:
     def __init__(self, val=0, next=None):
          self.val = val
          self.next = next
-class Solution(object): 
-    def __init__(self,nodes=None):
-        self.head = None
-        
+class Solution(object):     
     def middleNode(self, head):
         node = [head]
         while node[-1].next:
