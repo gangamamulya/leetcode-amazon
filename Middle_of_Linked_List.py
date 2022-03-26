@@ -2,7 +2,7 @@
 import collections
 class Node:
     def __init__(self, val=0, next=None):
-         self.val = v al
+         self.val = val
          self.next = next
 class Solution(object): 
     def __init__(self,nodes=None):
